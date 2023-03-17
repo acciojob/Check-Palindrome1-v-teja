@@ -14,7 +14,7 @@ function palindrome(str){
 		}
 		if(charA!=" " && charB!=" "){
 			if(charA!=charB){
-				return true;
+				return false;
 			}
 			start++;
 			end--;
